@@ -1,0 +1,27 @@
+.icons{
+    width: 100px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  text-align: center;
+gap: 20px;
+margin-bottom: 100px;
+}
+.about-container h1{
+    border: 2px solid blue;
+ height: 200px;
+ border-radius: 20px;
+ color: #FFF;
+ background-color: darkblue;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   text-align:center;
+}
+@media screen and (max-width:576px) {
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

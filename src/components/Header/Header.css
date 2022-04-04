@@ -10,3 +10,9 @@
  align-items: center;
 
 }
+@media screen  and (max-width:576px){
+    .header{
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
