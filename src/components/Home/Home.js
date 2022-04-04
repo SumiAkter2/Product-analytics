@@ -1,10 +1,11 @@
 import React from 'react';
+import { CardGroup } from 'react-bootstrap';
+import useReview from '../../Hooks/UseReview';
 import Review from '../Review/Review';
-import useReview from '../useReview/useReview';
 import './Home.css'
 const Home = () => {
     const [reviews, setReviews]=useReview();
-    console.log(reviews);
+   
     return (
         <div >
 
@@ -19,17 +20,21 @@ const Home = () => {
                 <img src="jewellery-2.png" alt="" />
             </div>
            </div>
-            <section className='review-section'>
-                <hr />
-                <h2>See Reviews:{reviews.length}</h2>
-            <div className='reviews-map'>
-            {
-                   reviews.map(review=><Review key={review._id}
-                   review={review}></Review>)
-               }
-            </div>
-                <hr />
-            </section>
+           <h2 style={{marginBottom:'60px',marginTop:"60px", color:'darkblue'}}>Customer Review</h2>
+       <div className='reviews-map'>
+      
+             {
+                 reviews.map(review=><Review key={review._id} review={review}></Review>)
+             }
+     
+       </div>
+       <button className='review-btn'>Explore more..</button>
+                    
+          
+               
+               
+        
+               
         </div>
     );
 };

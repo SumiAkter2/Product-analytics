@@ -6,7 +6,7 @@ const [reviews, setReviews]=useState([]);
 useEffect(()=>{
     fetch('data.json')
     .then(res=>res.json())
-    .then(data=>setReviews(data))
+    .then(data=>setReviews(data.slice(0,3)))
    
 },[])
 return[reviews, setReviews];
