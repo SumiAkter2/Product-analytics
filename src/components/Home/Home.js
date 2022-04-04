@@ -8,6 +8,7 @@ const Home = () => {
                 <h1>Jewelry Empire</h1>
                 <h3>Choose Your Best</h3>
                 <p>Your satisfaction is your desire. </p>
+                <button className='home-btn'>Explore more ... </button>
             </div>
             <div className="img-container">
                 <img src="jewellery-2.png" alt="" />
