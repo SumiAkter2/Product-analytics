@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Copyright &Copyright; reserve, 2022</p>
+            <p>Copyright &copy; reserve, 2022</p>
         </div>
     );
 };
