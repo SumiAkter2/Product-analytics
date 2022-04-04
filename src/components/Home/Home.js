@@ -1,11 +1,12 @@
 import React from 'react';
 import { CardGroup } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/UseReview';
 import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
     const [reviews, setReviews]=useReview();
-   
+  
     return (
         <div >
 
@@ -24,11 +25,11 @@ const Home = () => {
        <div className='reviews-map'>
       
              {
-                 reviews.map(review=><Review key={review._id} review={review}></Review>)
+                 reviews.slice(0,3).map(review=><Review key={review._id} review={review}></Review>)
              }
      
        </div>
-       <button className='review-btn'>Explore more..</button>
+     <Link to='/reviews'>  <button className='review-btn'>Explore more..</button></Link>
                     
           
                

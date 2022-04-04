@@ -1,0 +1,21 @@
+.customer-review img{
+width: 50px;
+border-radius: 10px;
+}
+.customer-review{
+    display: flex;
+   text-align: start;
+ align-items: center;
+ padding-left: 30px;
+ border: 2px solid darkblue;
+ border-radius: 10px;
+}
+.review-text{
+   padding-left:30px ;
+}
+.stars{
+    width: 100px;
+    display: flex;
+  justify-content: start;
+  color: orange;
+}
