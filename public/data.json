@@ -1,0 +1,45 @@
+[
+    {
+      "_id": "1",
+      "post": "So nice collection",
+      "picture": "./pexels-bhoopal-m-1446161 (1).jpg",
+      "name": "Stephens Odom"
+    },
+    {
+        "_id": "2",
+        "post": "Comfortable and gorgeous.",
+        "picture": "./pexels-valeria-boltneva-12965.jpg",
+        "name": "Mavis Lueis"
+      },
+      {
+        "_id": "3",
+        "post": "Reasonable price with gorgeous look.",
+        "picture": "./pexels-skg-photography-2673365.jpg",
+        "name": "Lue Jacky"
+      },
+      {
+        "_id": "4",
+        "post": "Good packaging",
+        "picture": "./pexels-pixabay-219582.jpg",
+        "name": "Voumi Ghosh"
+      },
+      {
+        "_id": "5",
+        "post": "I am so to buy it.",
+        "picture": "./pexels-nripen-kumar-roy-730055.jpg",
+        "name": "Tephens Odomis"
+      },
+      {
+        "_id": "6",
+        "post": "Thank you so much",
+        "picture": "./pexels-melikaa-tg-5475580.jpg",
+        "name": "Karl Chauire "
+      },
+      {
+        "_id": "7",
+        "post": "This ornaments is just awesome",
+        "picture": "./pexels-fabio-lange-1770167.jpg",
+        "name": "Laties pal"
+      }
+
+  ]

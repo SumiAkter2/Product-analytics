@@ -1,10 +1,12 @@
 import React from 'react';
-
+import './NotFound.css';
+import { EmojiSadIcon } from '@heroicons/react/solid'
 const NotFound = () => {
     return (
-        <div>
-            <h1 className='container'>Oops This Page Is Not Available!!!</h1>
-            <h1>404</h1>
+        <div className='body-container'>
+            <h1>Oops!!! This Page Is Not Found.</h1>
+            <h2>404</h2>
+            <EmojiSadIcon className='icon'></EmojiSadIcon>
         </div>
     );
 };

@@ -24,3 +24,11 @@
 .home-btn:hover{
     background-color: rgb(58, 58, 194);
 }
+.review-section{
+    margin-top: 40px;
+    color: darkblue;
+}
+.reviews-map{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

@@ -1,0 +1,17 @@
+.reviews-container{
+    display: grid;
+   border: 2px solid blue;
+   gap:4px;
+   margin: 10px;
+   padding-left: 20px;
+   border-radius: 10px;
+}
+.reviews-container p{
+    text-align: start;
+    line-height: 0.1;
+}
+.reviews-container img{
+    padding-top: 10px;
+    width: 30px;
+    border-radius: 60%;
+}
