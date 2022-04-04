@@ -1,5 +1,5 @@
 import React from 'react';
-import {CartPieIcon, CashIcon, GiftIcon, MenuIcon, StarIcon, ThumbDownIcon, TrendingDownIcon, TrendingUpIcon } from '@heroicons/react/solid';
+import { CashIcon, GiftIcon, MenuIcon, TrendingUpIcon } from '@heroicons/react/solid';
 import './About.css'
 const About = () => {
     return (

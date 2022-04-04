@@ -1,6 +1,6 @@
-import { Button } from 'bootstrap';
+
 import React from 'react';
-import { Card } from 'react-bootstrap';
+
 import './Review.css'
 import {StarIcon } from '@heroicons/react/solid'
 

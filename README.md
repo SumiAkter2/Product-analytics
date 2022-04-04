@@ -1,4 +1,15 @@
 # Getting Started with Create React App
+#product-review-site
+[Jewelry Empire]()
+*Bullet list
+*create different components;
+*setup logo ;
+*Added customer review by using custom hook;
+*use recharts and create different charts.
+*add feature by using heroIcon;
+*use react router ;
+*404 page setup;
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
