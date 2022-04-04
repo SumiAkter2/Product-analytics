@@ -1,13 +1,13 @@
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 25px;
  text-align: start;
 }
 .text-container{
-    font-size: 30px;
+    font-size: 35px;
    margin-top: 50px;
-    line-height: 0.5;
+    /* line-height: ; */
     color: darkblue;
 }
 .text-container p{

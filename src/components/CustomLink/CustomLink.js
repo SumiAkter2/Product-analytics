@@ -1,22 +1,23 @@
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-import './CustomLink.css'
-function CustomLink({ children, to, ...props }) {
+
+
+  function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
     let match = useMatch({ path: resolved.pathname, end: true });
   
     return (
-      <div className='custom-link'>
+      <div>
         <Link
-          style={{color:'white',paddingLeft:'30px', textDecoration: match ? "underline" : "none" }}
+          style={{ color:'white',paddingLeft:' 50px', textDecoration: match ? "underline" : "none" }}
           to={to}
           {...props}
         >
           {children}
         </Link>
-       
+        
       </div>
     );
-  };
+    };
 
 export default CustomLink;

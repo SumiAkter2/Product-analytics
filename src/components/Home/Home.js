@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardGroup } from 'react-bootstrap';
+
 import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/UseReview';
 import Review from '../Review/Review';
@@ -9,12 +9,11 @@ const Home = () => {
   
     return (
         <div >
-
            <div className='container'>
            <div className="text-container">
                 <h1>Jewelry Empire</h1>
                 <h3>Choose Your Best</h3>
-                <p>Your satisfaction is your desire. </p>
+                <p>Your satisfaction is our desire.We guarantee our customer that our products are 100% real. </p>
                 <button className='home-btn'>Explore more ... </button>
             </div>
             <div className="img-container">
@@ -30,12 +29,7 @@ const Home = () => {
      
        </div>
      <Link to='/reviews'>  <button className='review-btn'>Explore more..</button></Link>
-                    
-          
-               
-               
-        
-               
+   
         </div>
     );
 };
